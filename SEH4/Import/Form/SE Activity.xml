@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Form" id="52D6D7C8131E45028CAC3CAEF340F706" action="add">
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>SE Activity</name>
+  <Relationships>
+   <Item type="Body" id="C27C18BEEFF54194A94805D8382ED8EB" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Activity" type="Form">52D6D7C8131E45028CAC3CAEF340F706</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

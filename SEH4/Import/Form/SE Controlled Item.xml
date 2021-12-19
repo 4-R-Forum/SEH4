@@ -1,0 +1,92 @@
+﻿<AML>
+ <Item type="Form" id="2DA1AA64660F477EBC9CEB90CBECE32A" action="add">
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>SE Controlled Item</name>
+  <Relationships>
+   <Item type="Body" id="FAA7050C620B4E5AA33BF6F7F123E565" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Controlled Item" type="Form">2DA1AA64660F477EBC9CEB90CBECE32A</source_id>
+    <Relationships>
+     <Item type="Field" id="6AB7FDF89A7C412BB1A09355B6F56933" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#333333</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">item_number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="item_number" type="Property">DED8AA4946054158A45683B618F3C34A</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="FAA7050C620B4E5AA33BF6F7F123E565" type="Body">FAA7050C620B4E5AA33BF6F7F123E565</source_id>
+      <tab_index>3584</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>50</y>
+      <name>item_number</name>
+     </Item>
+     <Item type="Field" id="FC2A531ACD47417F82EA68911F404D56" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#333333</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ItemType</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="FAA7050C620B4E5AA33BF6F7F123E565" type="Body">FAA7050C620B4E5AA33BF6F7F123E565</source_id>
+      <tab_index>128</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>10</y>
+      <name>itemtype</name>
+     </Item>
+     <Item type="Field" id="8B947740C5B94121B594EC82FADE1469" action="add">
+      <border_width>0</border_width>
+      <display_length>64</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#333333</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="name" type="Property">3DFB78EA311A4691A91A106DE08C9310</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="FAA7050C620B4E5AA33BF6F7F123E565" type="Body">FAA7050C620B4E5AA33BF6F7F123E565</source_id>
+      <tab_index>3712</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>90</y>
+      <name>name</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="FC2A531ACD47417F82EA68911F404D56" action="edit">
+  <!-- Please note: this AML depends on the "SE Controlled Item" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>itemtype</name>
+    <source_id type="ItemType" keyed_name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

@@ -1,0 +1,61 @@
+﻿<AML>
+ <Item type="Form" id="6417946BF6074DC8AC6D39C18814003C" action="add">
+  <description />
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>SE Input</name>
+  <Relationships>
+   <Item type="Body" id="7E884C6B3A184FF990BDFFF325CCC42F" action="add">
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Input" type="Form">6417946BF6074DC8AC6D39C18814003C</source_id>
+    <Relationships>
+     <Item type="Field" id="229266009F464DD4A40CF9B8629C3B25" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#333333</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">se_controlled_item_id</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="se_controlled_item_id" type="Property">3E4B7EC46BB74177B77466DA449000C7</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="7E884C6B3A184FF990BDFFF325CCC42F" type="Body">7E884C6B3A184FF990BDFFF325CCC42F</source_id>
+      <tab_index>3840</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>50</y>
+      <name>se_controlled_item_id</name>
+     </Item>
+     <Item type="Field" id="2F8F0CCD8E1D4972975E5AE2148D6E1D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#333333</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">se_input_id</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="se_input_id" type="Property">198EEE901AF34CC7880F1198B11754DC</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="7E884C6B3A184FF990BDFFF325CCC42F" type="Body">7E884C6B3A184FF990BDFFF325CCC42F</source_id>
+      <tab_index>3584</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>10</y>
+      <name>se_input_id</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

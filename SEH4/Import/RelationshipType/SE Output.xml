@@ -1,0 +1,82 @@
+﻿<AML>
+ <Item type="RelationshipType" id="C8613BF548F64AC7B8993A2B10C6F743" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Outputs</label>
+  <new_show_related>0</new_show_related>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="SE Output" type="ItemType" name="SE Output">
+   <Item type="ItemType" id="84C8F4415BF147A89359BFEB9F58ADB7" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>SE_OUTPUT</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs off</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <name>SE Output</name>
+    <Relationships>
+     <Item type="Property" id="F4CE52F3C69E4009806B915649A41123" action="add">
+      <column_alignment>left</column_alignment>
+      <data_source keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</data_source>
+      <data_type>item</data_type>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <item_behavior>float</item_behavior>
+      <label xml:lang="en">se_controlled_item_id</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="SE Output" type="ItemType" name="SE Output">84C8F4415BF147A89359BFEB9F58ADB7</source_id>
+      <track_history>0</track_history>
+      <name>se_controlled_item_id</name>
+     </Item>
+     <Item type="Property" id="182AC3D8B7EE4AE58A993F40F642DF65" action="add">
+      <column_alignment>left</column_alignment>
+      <data_source keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</data_source>
+      <data_type>item</data_type>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <item_behavior>float</item_behavior>
+      <label xml:lang="en">se_output_id</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3712</sort_order>
+      <source_id keyed_name="SE Output" type="ItemType" name="SE Output">84C8F4415BF147A89359BFEB9F58ADB7</source_id>
+      <track_history>0</track_history>
+      <name>se_output_id</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </relationship_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+  <name>SE Output</name>
+ </Item>
+ <Item type="View" action="delete" where="source_id='84C8F4415BF147A89359BFEB9F58ADB7'" />
+ <Item type="Form" action="delete" where="name='SE Output'" />
+</AML>

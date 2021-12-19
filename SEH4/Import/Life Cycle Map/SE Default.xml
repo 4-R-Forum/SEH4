@@ -1,0 +1,98 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="A92926C4597B4F1DBE1C46C4253F1FE6" action="add">
+  <start_state keyed_name="Preliminary" type="Life Cycle State">F086E59A9C294889930DE6F24104E285</start_state>
+  <name>SE Default</name>
+  <Relationships>
+   <Item type="Life Cycle State" id="9880EB86B6714EDE940574D2966CC66F" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <set_is_released>1</set_is_released>
+    <set_not_lockable>1</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <x>455</x>
+    <y>106</y>
+    <name>Complete</name>
+   </Item>
+   <Item type="Life Cycle State" id="21EB8A1494464CAC93E30D2D5315AFCB" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <x>283</x>
+    <y>107</y>
+    <name>In  Work</name>
+   </Item>
+   <Item type="Life Cycle State" id="F086E59A9C294889930DE6F24104E285" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <x>114</x>
+    <y>107</y>
+    <name>Preliminary</name>
+   </Item>
+   <Item type="Life Cycle Transition" id="5F26E991CE2A4B56822FF6B6C9767796" action="add">
+    <from_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Owner" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Owner</name>
+     </Item>
+    </role>
+    <segments>377,74</segments>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <to_state keyed_name="Complete" type="Life Cycle State">9880EB86B6714EDE940574D2966CC66F</to_state>
+    <x>63</x>
+    <y>-57</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="9FAD982D152845CB9E0314169D86E2B1" action="add">
+    <from_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Manager" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Manager</name>
+     </Item>
+    </role>
+    <segments>378,163</segments>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <to_state keyed_name="Complete" type="Life Cycle State">9880EB86B6714EDE940574D2966CC66F</to_state>
+    <x>62</x>
+    <y>63</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="585D2F9474B740EAB29DA801AC940BFC" action="add">
+    <from_state keyed_name="Preliminary" type="Life Cycle State">F086E59A9C294889930DE6F24104E285</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Owner" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Owner</name>
+     </Item>
+    </role>
+    <segments>208,80</segments>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <to_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</to_state>
+    <x>64</x>
+    <y>-52</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="7E55F4EAE9984DCDAE8163821117B1DA" action="add">
+    <from_state keyed_name="Preliminary" type="Life Cycle State">F086E59A9C294889930DE6F24104E285</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Manager" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Manager</name>
+     </Item>
+    </role>
+    <segments>206,159</segments>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</source_id>
+    <to_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</to_state>
+    <x>54</x>
+    <y>62</y>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

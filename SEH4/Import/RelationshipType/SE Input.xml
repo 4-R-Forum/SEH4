@@ -1,0 +1,93 @@
+﻿<AML>
+ <Item type="RelationshipType" id="6CB139824E7F4F649932DED44503B093" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Inputs</label>
+  <new_show_related>0</new_show_related>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="SE Input" type="ItemType" name="SE Input">
+   <Item type="ItemType" id="6E623A6BBF454DBFBA66FBB2D4A0136A" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>SE_INPUT</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs off</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <name>SE Input</name>
+    <Relationships>
+     <Item type="Property" id="3E4B7EC46BB74177B77466DA449000C7" action="add">
+      <column_alignment>left</column_alignment>
+      <data_source keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</data_source>
+      <data_type>item</data_type>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <item_behavior>float</item_behavior>
+      <label xml:lang="en">se_controlled_item_id</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3840</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+      <track_history>0</track_history>
+      <name>se_controlled_item_id</name>
+     </Item>
+     <Item type="Property" id="198EEE901AF34CC7880F1198B11754DC" action="add">
+      <column_alignment>left</column_alignment>
+      <data_source keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</data_source>
+      <data_type>item</data_type>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <item_behavior>float</item_behavior>
+      <label xml:lang="en">se_input_id</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+      <track_history>0</track_history>
+      <name>se_input_id</name>
+     </Item>
+     <Item type="View" id="A80F167C0C9A43C289CC30D8D8DF7C4C" action="add">
+      <client>js</client>
+      <related_id keyed_name="SE Input" type="Form">6417946BF6074DC8AC6D39C18814003C</related_id>
+      <role keyed_name="World" type="Identity">
+       <Item type="Identity" action="get" select="id">
+        <name>World</name>
+       </Item>
+      </role>
+      <show_ssvc>0</show_ssvc>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+      <type>default</type>
+     </Item>
+    </Relationships>
+   </Item>
+  </relationship_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+  <name>SE Input</name>
+ </Item>
+</AML>

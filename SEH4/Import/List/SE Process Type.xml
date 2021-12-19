@@ -1,0 +1,56 @@
+﻿<AML>
+ <Item type="List" id="7EB91526714C4700966DB2CF345F1A0C" action="add">
+  <name>SE Process Type</name>
+  <Relationships>
+   <Item type="Value" id="E04AB14F8D2B490F9238290C55B63352" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Technical</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Technical</value>
+   </Item>
+   <Item type="Value" id="E255128F17A84E2EA36BD074E6A61BE7" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Technical Management</label>
+    <sort_order>5</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Technical Management</value>
+   </Item>
+   <Item type="Value" id="3C9ED7BCE4BC4578A6751841B1B3BC94" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Agreement</label>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Agreement</value>
+   </Item>
+   <Item type="Value" id="55A4406A9EF84B0DBA2D1810B6B2FB32" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Organizational</label>
+    <sort_order>7</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Organizational</value>
+   </Item>
+   <Item type="Value" id="FDB8C8650B394729ACCD512DC58E9410" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Tailoring</label>
+    <sort_order>8</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Tailoring</value>
+   </Item>
+   <Item type="Value" id="3A3CEFFDCF514DADBEAD77668E4439EE" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Cross Cutting</label>
+    <sort_order>9</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Cross Cutting</value>
+   </Item>
+   <Item type="Value" id="EC15FC84313A49338DC0E9712B295F22" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Specialty</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Specialty</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
