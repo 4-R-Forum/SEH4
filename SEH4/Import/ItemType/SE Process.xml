@@ -18,12 +18,12 @@
   <use_src_access>0</use_src_access>
   <name>SE Process</name>
   <Relationships>
-   <Item type="ITPresentationConfiguration" id="8CBD66DA48474D5C935CFCA1CD13684B" action="add">
+<!--   <Item type="ITPresentationConfiguration" id="8CBD66DA48474D5C935CFCA1CD13684B" action="add">
     <client>js</client>
     <related_id keyed_name="SE Process_TOC_Configuration" type="PresentationConfiguration">1106544C362546C1A90B92B2F6496F08</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
-   </Item>
+   </Item>-->
    <Item type="Property" id="63D2AF9A5F1B4ECDB0DD7F60694F55D6" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -156,6 +156,16 @@
     <related_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+   </Item>
+   <Item type="TOC Access" id="34BEEF1728E84D7A99101A16975BB7E5" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+    <category>SEH4</category>
    </Item>
    <Item type="Can Add" id="F77F7EA63490482697FDD25387F6B6B1" action="add">
     <can_add>1</can_add>

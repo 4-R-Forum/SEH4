@@ -18,12 +18,12 @@
   <use_src_access>0</use_src_access>
   <name>SE IO</name>
   <Relationships>
-   <Item type="ITPresentationConfiguration" id="F95989A07B5B4F7CB3706751ED3F1546" action="add">
+<!--   <Item type="ITPresentationConfiguration" id="F95989A07B5B4F7CB3706751ED3F1546" action="add">
     <client>js</client>
     <related_id keyed_name="SE IO_TOC_Configuration" type="PresentationConfiguration">93153359796448588E668B1FE17C68CF</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
-   </Item>
+   </Item>-->
    <Item type="Property" id="00E17172E6404E5CA2CC0073289EEC37" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -100,6 +100,16 @@
     <related_id keyed_name="SE Default" type="Life Cycle Map">A92926C4597B4F1DBE1C46C4253F1FE6</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
+   </Item>
+   <Item type="TOC Access" id="A5A6922F808344EBA4530459BC8CBCA7" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
+    <category>SEH4</category>
    </Item>
    <Item type="Can Add" id="00B9DE9EE2E749EF8AB568A90F3216F4" action="add">
     <can_add>1</can_add>
