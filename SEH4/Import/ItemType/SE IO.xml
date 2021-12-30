@@ -4,6 +4,7 @@
   <auto_search>1</auto_search>
   <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
+  <history_template keyed_name="Default" type="History Template">3BC16EF9E52B4F9792AB76BCE0492F29</history_template>
   <implementation_type>table</implementation_type>
   <instance_data>SE_IO</instance_data>
   <is_dependent>0</is_dependent>
@@ -45,8 +46,7 @@
    </Item>
    <Item type="Property" id="2AF39CE02A5A46BD9E582EBDB7A4FE9B" action="add">
     <column_alignment>left</column_alignment>
-    <data_source keyed_name="SE IO">1FE2F558B7E241549D4D29B7D05785EA</data_source>
-    <data_type>sequence</data_type>
+    <data_type>string</data_type>
     <is_federated>0</is_federated>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -54,12 +54,13 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <keyed_name_order>1</keyed_name_order>
+    <keyed_name_order>2</keyed_name_order>
     <label xml:lang="en">item_number</label>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3456</sort_order>
     <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
+    <stored_length>8</stored_length>
     <track_history>0</track_history>
     <name>item_number</name>
    </Item>
@@ -73,7 +74,7 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <keyed_name_order>2</keyed_name_order>
+    <keyed_name_order>1</keyed_name_order>
     <label xml:lang="en">name</label>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>

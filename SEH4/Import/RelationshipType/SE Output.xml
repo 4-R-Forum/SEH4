@@ -45,13 +45,14 @@
       <label xml:lang="en">se_controlled_item_id</label>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
-      <sort_order>3584</sort_order>
+      <sort_order>3712</sort_order>
       <source_id keyed_name="SE Output" type="ItemType" name="SE Output">84C8F4415BF147A89359BFEB9F58ADB7</source_id>
       <track_history>0</track_history>
       <name>se_controlled_item_id</name>
      </Item>
      <Item type="Property" id="182AC3D8B7EE4AE58A993F40F642DF65" action="add">
       <column_alignment>left</column_alignment>
+      <column_width>600</column_width>
       <data_source keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</data_source>
       <data_type>item</data_type>
       <is_federated>0</is_federated>
@@ -65,7 +66,7 @@
       <label xml:lang="en">se_output_id</label>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
-      <sort_order>3712</sort_order>
+      <sort_order>3584</sort_order>
       <source_id keyed_name="SE Output" type="ItemType" name="SE Output">84C8F4415BF147A89359BFEB9F58ADB7</source_id>
       <track_history>0</track_history>
       <name>se_output_id</name>

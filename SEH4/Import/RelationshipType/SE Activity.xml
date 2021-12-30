@@ -32,6 +32,7 @@
     <Relationships>
      <Item type="Property" id="6D271809C16C42C0B081BBC7719195BA" action="add">
       <column_alignment>left</column_alignment>
+      <column_width>600</column_width>
       <data_type>string</data_type>
       <is_federated>0</is_federated>
       <is_hidden>0</is_hidden>
@@ -45,7 +46,7 @@
       <readonly>0</readonly>
       <sort_order>3584</sort_order>
       <source_id keyed_name="SE Activity" type="ItemType" name="SE Activity">566EF95F35A64C80BC60BFAF19547A49</source_id>
-      <stored_length>64</stored_length>
+      <stored_length>128</stored_length>
       <track_history>0</track_history>
       <name>name</name>
      </Item>

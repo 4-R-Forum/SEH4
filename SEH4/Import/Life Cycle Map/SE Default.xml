@@ -35,7 +35,7 @@
    </Item>
    <Item type="Life Cycle Transition" id="5F26E991CE2A4B56822FF6B6C9767796" action="add">
     <from_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</from_state>
-    <get_comment>0</get_comment>
+    <get_comment>1</get_comment>
     <role keyed_name="Owner" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Owner</name>
@@ -50,7 +50,7 @@
    </Item>
    <Item type="Life Cycle Transition" id="9FAD982D152845CB9E0314169D86E2B1" action="add">
     <from_state keyed_name="In  Work" type="Life Cycle State">21EB8A1494464CAC93E30D2D5315AFCB</from_state>
-    <get_comment>0</get_comment>
+    <get_comment>1</get_comment>
     <role keyed_name="Manager" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Manager</name>
@@ -65,7 +65,7 @@
    </Item>
    <Item type="Life Cycle Transition" id="585D2F9474B740EAB29DA801AC940BFC" action="add">
     <from_state keyed_name="Preliminary" type="Life Cycle State">F086E59A9C294889930DE6F24104E285</from_state>
-    <get_comment>0</get_comment>
+    <get_comment>1</get_comment>
     <role keyed_name="Owner" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Owner</name>
@@ -80,7 +80,7 @@
    </Item>
    <Item type="Life Cycle Transition" id="7E55F4EAE9984DCDAE8163821117B1DA" action="add">
     <from_state keyed_name="Preliminary" type="Life Cycle State">F086E59A9C294889930DE6F24104E285</from_state>
-    <get_comment>0</get_comment>
+    <get_comment>1</get_comment>
     <role keyed_name="Manager" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Manager</name>
