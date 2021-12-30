@@ -245,7 +245,7 @@
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
     <data_type>item</data_type>
-    <default_value xml:lang="en">Creator</default_value>
+    <default_value is_null="1" />
     <is_federated>0</is_federated>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
