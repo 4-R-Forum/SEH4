@@ -30,8 +30,63 @@
     <use_src_access>1</use_src_access>
     <name>SE Input</name>
     <Relationships>
+     <Item type="Property" id="436CA9E267864F3CA6A0998FF68074F4" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>400</column_width>
+      <data_source>
+       <Item type="Property" action="get" select="id">
+        <name>se_input_id</name>
+        <source_id>6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+       </Item>
+      </data_source>
+      <data_type>foreign</data_type>
+      <foreign_property>
+       <Item type="Property" action="get" select="id">
+        <keyed_name>description</keyed_name>
+        <source_id>
+         <Item type="ItemType" action="get" select="id">
+          <name>SE IO</name>
+         </Item>
+        </source_id>
+       </Item>
+      </foreign_property>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label xml:lang="en">Description</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3586</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+      <track_history>0</track_history>
+      <name>description</name>
+     </Item>
+     <Item type="Property" id="60A13EC8C9D74EF594BCB7EAA96A19A0" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>50</column_width>
+      <data_type>boolean</data_type>
+      <is_federated>0</is_federated>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label xml:lang="en">Appl</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3588</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+      <track_history>0</track_history>
+      <name>is_applicable</name>
+     </Item>
      <Item type="Property" id="3E4B7EC46BB74177B77466DA449000C7" action="add">
       <column_alignment>left</column_alignment>
+      <column_width>300</column_width>
       <data_source keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</data_source>
       <data_type>item</data_type>
       <is_federated>0</is_federated>
@@ -52,6 +107,7 @@
      </Item>
      <Item type="Property" id="198EEE901AF34CC7880F1198B11754DC" action="add">
       <column_alignment>left</column_alignment>
+      <column_width>400</column_width>
       <data_source keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</data_source>
       <data_type>item</data_type>
       <is_federated>0</is_federated>
@@ -82,6 +138,23 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
       <type>default</type>
+     </Item>
+     <Item type="Server Event" id="642F48077ADD44AC9177C5350C4F69C5" action="add">
+      <event_version>version_1</event_version>
+      <is_required>0</is_required>
+      <related_id keyed_name="se_in_out_keyed_name" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>se_in_out_keyed_name</name>
+       </Item>
+      </related_id>
+      <server_event>GetKeyedName</server_event>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
+     </Item>
+     <Item type="TOC Access" id="4DAC801022A046CF8CDC4E6238FBA18D" action="add">
+      <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
      </Item>
     </Relationships>
    </Item>

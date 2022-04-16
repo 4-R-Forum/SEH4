@@ -19,12 +19,6 @@
   <use_src_access>0</use_src_access>
   <name>SE Controlled Item</name>
   <Relationships>
-   <Item type="ITPresentationConfiguration" id="3A35A1AC32A3469AA11913292325A2A0" action="add">
-    <client>js</client>
-    <related_id keyed_name="SE Controlled Item_TOC_Configuration" type="PresentationConfiguration">4C0590C71B884C92894F2E4E31C106CA</related_id>
-    <sort_order>128</sort_order>
-    <source_id keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
-   </Item>
    <Item type="Property" id="DED8AA4946054158A45683B618F3C34A" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>

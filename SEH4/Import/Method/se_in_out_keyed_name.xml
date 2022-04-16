@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Method" id="B791238B543B417DA77CAB58307AD7ED" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[Innovator innov = this.getInnovator();
+Item this_item = innov.getItemById(this.getType(), this.getID());
+string this_name = "";
+if(this.getType()=="SE Input") { this_name = "se_input_id" ;}
+else { this_name = "se_output_id" ;}
+string this_kn = this_item.getPropertyAttribute(this_name,"keyed_name");
+this.setProperty("keyed_name",this_kn);
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>se_in_out_keyed_name</name>
+ </Item>
+</AML>

@@ -32,6 +32,7 @@
     <Relationships>
      <Item type="Property" id="6D271809C16C42C0B081BBC7719195BA" action="add">
       <column_alignment>left</column_alignment>
+      <column_width>600</column_width>
       <data_type>string</data_type>
       <is_federated>0</is_federated>
       <is_hidden>0</is_hidden>
@@ -45,7 +46,7 @@
       <readonly>0</readonly>
       <sort_order>3584</sort_order>
       <source_id keyed_name="SE Activity" type="ItemType" name="SE Activity">566EF95F35A64C80BC60BFAF19547A49</source_id>
-      <stored_length>64</stored_length>
+      <stored_length>128</stored_length>
       <track_history>0</track_history>
       <name>name</name>
      </Item>
@@ -68,5 +69,28 @@
   <sort_order>200</sort_order>
   <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
   <name>SE Activity</name>
+ </Item>
+ <Item type="ItemType" id="566EF95F35A64C80BC60BFAF19547A49" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='566EF95F35A64C80BC60BFAF19547A49' and name='source_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</data_source>
+    <data_type>item</data_type>
+    <is_federated>0</is_federated>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="SE Activity" type="ItemType" name="SE Activity">566EF95F35A64C80BC60BFAF19547A49</source_id>
+    <track_history>0</track_history>
+    <name>source_id</name>
+   </Item>
+  </Relationships>
  </Item>
 </AML>

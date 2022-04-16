@@ -2,6 +2,13 @@
  <Item type="List" id="7EB91526714C4700966DB2CF345F1A0C" action="add">
   <name>SE Process Type</name>
   <Relationships>
+   <Item type="Value" id="0A558C723AB443AC83A37F683E5720E5" action="add">
+    <inactive>0</inactive>
+    <label xml:lang="en">Capability Concept</label>
+    <sort_order>0</sort_order>
+    <source_id keyed_name="SE Process Type" type="List">7EB91526714C4700966DB2CF345F1A0C</source_id>
+    <value>Capability Concept</value>
+   </Item>
    <Item type="Value" id="E04AB14F8D2B490F9238290C55B63352" action="add">
     <inactive>0</inactive>
     <label xml:lang="en">Technical</label>
