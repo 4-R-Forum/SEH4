@@ -151,11 +151,6 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
      </Item>
-     <Item type="TOC Access" id="4DAC801022A046CF8CDC4E6238FBA18D" action="add">
-      <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
-      <sort_order>128</sort_order>
-      <source_id keyed_name="SE Input" type="ItemType" name="SE Input">6E623A6BBF454DBFBA66FBB2D4A0136A</source_id>
-     </Item>
     </Relationships>
    </Item>
   </relationship_id>
