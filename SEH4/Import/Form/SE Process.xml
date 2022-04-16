@@ -143,7 +143,7 @@
       <source_id keyed_name="92704EB6A9824DC899B093F4C7560F2C" type="Body">92704EB6A9824DC899B093F4C7560F2C</source_id>
       <tab_index>896</tab_index>
       <tab_stop>1</tab_stop>
-      <x>510</x>
+      <x>560</x>
       <y>80</y>
       <name>managed_by_id</name>
      </Item>
@@ -187,7 +187,7 @@
       <source_id keyed_name="92704EB6A9824DC899B093F4C7560F2C" type="Body">92704EB6A9824DC899B093F4C7560F2C</source_id>
       <tab_index>768</tab_index>
       <tab_stop>1</tab_stop>
-      <x>360</x>
+      <x>410</x>
       <y>80</y>
       <name>owned_by_id</name>
      </Item>
@@ -238,17 +238,17 @@
       <border_width>0</border_width>
       <display_length>30</display_length>
       <display_length_unit>em</display_length_unit>
-      <field_type>text</field_type>
+      <field_type>item</field_type>
       <font_color>#333333</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label xml:lang="en">system_or_element</label>
+      <label xml:lang="en">System</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
-      <propertytype_id keyed_name="system_or_element" type="Property">8A33126B73E5431C865FAFC4A7AFC6EF</propertytype_id>
+      <propertytype_id keyed_name="system_id" type="Property">B098DF84D3814F579FA49BD01CBFCAB2</propertytype_id>
       <sort_order>1024</sort_order>
       <source_id keyed_name="92704EB6A9824DC899B093F4C7560F2C" type="Body">92704EB6A9824DC899B093F4C7560F2C</source_id>
       <tab_index>3584</tab_index>
