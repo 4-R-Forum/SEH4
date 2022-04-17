@@ -1,0 +1,30 @@
+SEH4 Community Solution
+=======================
+
+Revisions
+=========
+12/30/2021	First release v 0.1 Depends on PE Application
+
+Description
+===========
+
+This package creates templates for the 30 Processes and 200 Input/Ouptuts described in the Systems Engineering Handbook Fourth Edition. The purpose is to enable engineers to create SE processes for systems of interest to their organizations, following the handbook, and using the open source version of Aras Innovator(R), v12 and R14 are supported. It may be be extended to include ItemTypes from subscription applications such as System Architecture and Simulation Management.
+
+Installation
+============
+1) Import the package using the ImportExport tool
+2) Apply AML in Data/SEH4-DataAdd.xml using Nash.aspx
+
+User Guide
+==========
+10) Select an SE Process from the SEH4/SE Processes in the TOC
+11) Use OOTB Copy as New action
+			-> a now process is created
+11) Edit the process and uncheck is_template
+12) Edit Inputs and Outputs in the relationship grid, to add SE Controlled Items
+13) It is not anticipated that all inputs and outputs from the template will be appropriate for user systems.
+14) It is anticiapated that the templates and their functionality will be tailored and configured to meet user system needs.
+
+Jon Hodge
+12/30/2021
+
