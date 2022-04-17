@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="1C75DB20E65A483FB67BBEC757B713EB" action="add">
+  <additional_data>{"itemTypeId":"673CEBC159EA49A9A73FBE2E27FD2A7B"}</additional_data>
+  <image>../images/DefaultItemType.svg</image>
+  <label xml:lang="en">SE Controlled Items</label>
+  <parent_menu keyed_name="com.aras.innovator.cui_default.toc_735C837A88454672BCB1D67E334890A4" type="CommandBarMenu">735C837A88454672BCB1D67E334890A4</parent_menu>
+  <name>com.aras.innovator.cui_default.toc_SE Controlled Item_1C75DB20E65A483FB67BBEC757B713EB</name>
+ </Item>
+</AML>

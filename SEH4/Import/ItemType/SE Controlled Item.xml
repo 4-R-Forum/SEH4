@@ -19,6 +19,12 @@
   <use_src_access>0</use_src_access>
   <name>SE Controlled Item</name>
   <Relationships>
+   <Item type="ITPresentationConfiguration" id="A458073F2F274CC696DBE1662BA33314" action="add">
+    <client>js</client>
+    <related_id keyed_name="SE Controlled Item_TOC_Configuration" type="PresentationConfiguration">2B73D7C4A1B44492943532DA766B30AC</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
+   </Item>
    <Item type="Property" id="DED8AA4946054158A45683B618F3C34A" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -154,13 +160,19 @@
     <sort_order>512</sort_order>
     <source_id keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
    </Item>
-   <Item type="Can Add" id="A6795540883844E69DF9BE35D896FD30" action="add">
-    <can_add>1</can_add>
+   <Item type="TOC Access" id="DCDBBD3785E646F7B979B9CD1F824299" action="add">
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
+    <category>SEH4</category>
+   </Item>
+   <Item type="Can Add" id="A6795540883844E69DF9BE35D896FD30" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE Controlled Item" type="ItemType" name="SE Controlled Item">673CEBC159EA49A9A73FBE2E27FD2A7B</source_id>
    </Item>

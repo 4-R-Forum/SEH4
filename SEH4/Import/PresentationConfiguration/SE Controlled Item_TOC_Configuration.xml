@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="PresentationConfiguration" id="2B73D7C4A1B44492943532DA766B30AC" action="add">
+  <name>SE Controlled Item_TOC_Configuration</name>
+  <Relationships>
+   <Item type="PresentationCommandBarSection" id="7B61C1DBAE3F4F27BD189174F4C467D6" action="add">
+    <related_id keyed_name="SE Controlled Item_TOC_Content" type="CommandBarSection">6616D88A9DE743138B35C4ED168570C5</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Controlled Item_TOC_Configuration" type="PresentationConfiguration">2B73D7C4A1B44492943532DA766B30AC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

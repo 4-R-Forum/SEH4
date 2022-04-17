@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="D10CD307AADB470A9B94E336DE7574E2" action="add">
+  <additional_data>{"itemTypeId":"AC5F571593B547BE91F0A11FA0A1FD4C"}</additional_data>
+  <image>../images/DefaultItemType.svg</image>
+  <label xml:lang="en">SE Processes</label>
+  <parent_menu keyed_name="com.aras.innovator.cui_default.toc_735C837A88454672BCB1D67E334890A4" type="CommandBarMenu">735C837A88454672BCB1D67E334890A4</parent_menu>
+  <name>com.aras.innovator.cui_default.toc_SE Process_D10CD307AADB470A9B94E336DE7574E2</name>
+ </Item>
+</AML>

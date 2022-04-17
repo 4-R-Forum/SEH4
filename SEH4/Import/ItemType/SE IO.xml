@@ -19,7 +19,13 @@
   <use_src_access>0</use_src_access>
   <name>SE IO</name>
   <Relationships>
-<Item type="Property" id="00E17172E6404E5CA2CC0073289EEC37" action="add">
+   <Item type="ITPresentationConfiguration" id="9379F16C1FB4414BABF087ED40BFB47B" action="add">
+    <client>js</client>
+    <related_id keyed_name="SE IO_TOC_Configuration" type="PresentationConfiguration">A37F6B8BACA24D608B0CFC21801BEBF3</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
+   </Item>
+   <Item type="Property" id="00E17172E6404E5CA2CC0073289EEC37" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
     <is_federated>0</is_federated>
@@ -96,13 +102,19 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
    </Item>
-   <Item type="Can Add" id="00B9DE9EE2E749EF8AB568A90F3216F4" action="add">
-    <can_add>1</can_add>
+   <Item type="TOC Access" id="A5A6922F808344EBA4530459BC8CBCA7" action="add">
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
+    <category>SEH4</category>
+   </Item>
+   <Item type="Can Add" id="00B9DE9EE2E749EF8AB568A90F3216F4" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="SE IO" type="ItemType" name="SE IO">BE6A6FA27D4C4EB1B34320988D163642</source_id>
    </Item>
@@ -114,13 +126,13 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="ItemType" id="BE6A6FA27D4C4EB1B34320988D163642" action="edit">
+<!-- <Item type="ItemType" id="BE6A6FA27D4C4EB1B34320988D163642" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='BE6A6FA27D4C4EB1B34320988D163642' and name='owned_by_id'">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
     <data_type>item</data_type>
-    <default_value xml:lang="en">Creator</default_value>
+    <default_value xml:lang="en" />
     <is_federated>0</is_federated>
     <is_hidden>1</is_hidden>
     <is_hidden2>1</is_hidden2>
@@ -137,5 +149,5 @@
     <name>owned_by_id</name>
    </Item>
   </Relationships>
- </Item>
+ </Item>-->
 </AML>

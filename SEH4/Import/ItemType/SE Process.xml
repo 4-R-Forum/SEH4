@@ -19,6 +19,12 @@
   <use_src_access>0</use_src_access>
   <name>SE Process</name>
   <Relationships>
+   <Item type="ITPresentationConfiguration" id="5DA99F0B70F84428866FA4DDE0A0009C" action="add">
+    <client>js</client>
+    <related_id keyed_name="SE Process_TOC_Configuration" type="PresentationConfiguration">DA4B0509CF8E455D9E7C75CF7948BF3F</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+   </Item>
    <Item type="Property" id="4075FFD4BD0149749EB83539E9AEFE20" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -210,6 +216,16 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
    </Item>
+   <Item type="TOC Access" id="34BEEF1728E84D7A99101A16975BB7E5" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+    <category>SEH4</category>
+   </Item>
    <Item type="Can Add" id="F77F7EA63490482697FDD25387F6B6B1" action="add">
     <can_add>1</can_add>
     <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
@@ -224,7 +240,7 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="ItemType" id="AC5F571593B547BE91F0A11FA0A1FD4C" action="edit">
+<!-- <Item type="ItemType" id="AC5F571593B547BE91F0A11FA0A1FD4C" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='AC5F571593B547BE91F0A11FA0A1FD4C' and name='managed_by_id'">
     <column_alignment>left</column_alignment>
@@ -265,6 +281,24 @@
     <track_history>0</track_history>
     <name>owned_by_id</name>
    </Item>
+   <Item type="Property" action="edit" where="source_id='AC5F571593B547BE91F0A11FA0A1FD4C' and name='state'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_federated>0</is_federated>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="SE Process" type="ItemType" name="SE Process">AC5F571593B547BE91F0A11FA0A1FD4C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>state</name>
+   </Item>
   </Relationships>
- </Item>
+ </Item>-->
 </AML>

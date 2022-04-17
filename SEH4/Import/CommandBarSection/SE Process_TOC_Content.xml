@@ -1,0 +1,23 @@
+﻿<AML>
+ <Item type="CommandBarSection" id="BCBBF0BD569F47A18E3FC2F648CB3C38" action="add">
+  <classification>Data Model</classification>
+  <location keyed_name="TOC" type="cui_Location">02A5F61EF1C94C41834486FA8D76B4E1</location>
+  <name>SE Process_TOC_Content</name>
+  <Relationships>
+   <Item type="CommandBarSectionItem" id="0BEDFD47007C4F6F80C1CA1802633152" action="add">
+    <action>Add</action>
+    <related_id keyed_name="com.aras.innovator.cui_default.toc_SE Process_D10CD307AADB470A9B94E336DE7574E2" type="CommandBarItem">D10CD307AADB470A9B94E336DE7574E2</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="SE Process_TOC_Content" type="CommandBarSection">BCBBF0BD569F47A18E3FC2F648CB3C38</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="A7022A116D8A4AA5B2287755CC5F7771" action="add">
+    <action>Add</action>
+    <related_id keyed_name="com.aras.innovator.cui_default.toc_SE Process_C4440878FED5468A981F7F443BA1C27C" type="CommandBarItem">C4440878FED5468A981F7F443BA1C27C</related_id>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="SE Process_TOC_Content" type="CommandBarSection">BCBBF0BD569F47A18E3FC2F648CB3C38</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

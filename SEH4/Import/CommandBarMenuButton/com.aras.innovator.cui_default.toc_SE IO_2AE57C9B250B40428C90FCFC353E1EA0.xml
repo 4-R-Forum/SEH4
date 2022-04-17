@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="2AE57C9B250B40428C90FCFC353E1EA0" action="add">
+  <additional_data>{"itemTypeId":"BE6A6FA27D4C4EB1B34320988D163642"}</additional_data>
+  <image>../images/DefaultItemType.svg</image>
+  <label xml:lang="en">InputsOutputs</label>
+  <parent_menu keyed_name="com.aras.innovator.cui_default.toc_Systems Architecture" type="CommandBarMenu">5AAFFBE05F5C360C1B1FE36BEE101724</parent_menu>
+  <name>com.aras.innovator.cui_default.toc_SE IO_2AE57C9B250B40428C90FCFC353E1EA0</name>
+ </Item>
+</AML>
